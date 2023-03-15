@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <title>Pastelaria.com</title>
+</head>
+<body>
+    <header>
+            <div class="caixa-h1">
+                <img src="./complemento/equipamento-de-cozinha.png" alt="" width="60px">
+                <h1>Petisco da velha</h1>
+            </div>
+                
+            <div class="caixa-ul">
+                <ul>
+                    <li><a href="#">ORÇAMENTO</a></li>
+                    <li><a href="#">NOTÍCIAS</a></li>
+                    <li><a href="#">RECEITAS</a></li>
+                    <li><a href="#">HOME</a></li>
+                </ul>
+            </div>
+    
+    </header>
+
+    <main>
+        <ul>
+            <li><img src="./complemento/icons-endereco.png" alt=""><a href=""><strong>Localize-nos</strong> 
+                <br> Trevo 35,Araxá-MG
+            </a></li>
+            <li><img src="./complemento/icons-relogio.png" alt=""><a href=""><strong>Horário</strong> 
+                <br> De segunda a sábado. 19h-23h
+            </a></li>
+            <li><img src="./complemento/icons-gmail.png" alt=""><a href=""><strong>Reserva</strong> 
+                <br> (34)9847060
+            </a></li>
+        </ul>
+    </main>
+
+    <section class="calc"><!--calculadora de churrasco-->
+        
+        <form>
+
+            <p>Calculadora de Churrasco</p>
+            <input type="number" id="adulto" placeholder="Quantidade de Adultos"><br>
+            <input type="number" id="crianca" placeholder="Quantidade de Criancas"><br>
+            <input type="number" id="duracao" placeholder="Duracao"><br>
+            <button onclick="calcular(event)">Calcular</button>
+            <div id="res"></div>
+        
+        </form>
+
+        <div id="inf">
+            
+            <img src="./complemento/Bonequinho-penninha.png" alt="" width="260px">
+
+            <p><strong>VAMOS TE AJUDAR A MANDAR BRASA NO SEU CHURRASCO!</strong>
+                <br>
+            Preencha as informações, e te indicaremos uma lista de
+                <br> compras ideal para o seu churrasco.</p>
+
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><img src="./complemento/instagram.png" alt="" width="30px"></li>
+            <li><img src="./complemento/tiktok.png" alt="" width="30"></li>
+            <li><img src="./complemento/youtube.png" alt="" width="30px"></li>
+        </ul>
+    </footer>
+
+</body>
+<script src="./script/script.js"></script>
+</html>
